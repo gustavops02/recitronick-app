@@ -1,0 +1,23 @@
+body {
+	padding: 0 575px !important;
+
+background: rgb(255,255,255);
+background: radial-gradient(circle, rgba(255,255,255,1) 22%, rgba(129,0,255,1) 98%);
+}
+
+.main-page {
+	border-radius: 20px;
+	background-color: #222 ;
+}
+
+.responsive-layout {
+	height: 577px;
+	margin-top: 93px;
+	text-align: center;
+
+}
+
+.responsive-layout h1 {
+	color: #8100ff;
+}
+

@@ -1,23 +1,30 @@
-body {
-	padding: 0 575px !important;
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
 
-background: rgb(255,255,255);
-background: radial-gradient(circle, rgba(255,255,255,1) 22%, rgba(129,0,255,1) 98%);
+body {
+	background: rgb(255,255,255);
+	background: radial-gradient(circle, rgba(255,255,255,1) 22%, rgba(129,0,255,1) 98%);
 }
 
 .main-page {
+	width: 290px;
 	border-radius: 20px;
 	background-color: #222 ;
 }
 
 .responsive-layout {
-	height: 577px;
-	margin-top: 93px;
-	text-align: center;
+
+	height: 470px;
+	margin-top: 48px;
+	
 
 }
 
 .responsive-layout h1 {
+	text-align: center;
 	color: #8100ff;
 }
 

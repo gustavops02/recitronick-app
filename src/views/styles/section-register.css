@@ -1,0 +1,23 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+
+.form-register {
+	position: absolute;
+	top: 240px;
+	left: 590px;
+}
+
+.form-register form input {
+	margin-bottom: 10px;
+}
+.form-register form .button-register {
+	background: #8100ff !important;
+	font-weight: bolder;
+	font-size: 0.80em;
+	margin-top: 5px;
+
+}

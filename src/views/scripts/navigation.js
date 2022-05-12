@@ -10,4 +10,4 @@ function activeLink(){
 
 list.forEach((item) => {
 	item.addEventListener('click', activeLink)
-})
+})	

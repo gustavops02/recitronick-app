@@ -4,19 +4,18 @@
 	padding: 0;
 }
 
-
-.main-page {
-	width: 290px;
-	border-radius: 20px;
-	background-color: #222 ;
-}
-
 .responsive-layout {
-
 	height: 470px;
 	margin-top: 48px;
-	
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
 
+.responsive-layout .mobpages {
+	width: 290px;
+	border-radius: 20px;
+	background-color: #222;
 }
 
 .responsive-layout h4 {

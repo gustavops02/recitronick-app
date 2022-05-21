@@ -18,8 +18,15 @@
 	background-color: #222;
 }
 
-.responsive-layout h4 {
-	text-align: center;
-	color: #7FFF00;
+.responsive-layout span {
+	font-family: 'Montserrat', serif;
+	font-weight: bolder;
+	font-size: 14px;
+	text-overflow: clip;
+	color: #00ff0d;
+	text-align: end;
 }
 
+.responsive-layout .brand-title {
+	margin: 4.5px 15px;
+}

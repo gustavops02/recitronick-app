@@ -49,3 +49,28 @@
 .header-top li{
 	list-style-type: none;
 }
+.items-navbar {
+	text-align: end;
+	margin: 30px 7px;
+	text-decoration: none !important;
+
+
+}
+.items-navbar li {
+	list-style-type: none;
+	font-family: 'Montserrat', sans-serif;
+	margin-bottom: 24px;
+	
+}
+
+.items-navbar li a {
+	text-decoration: none;
+	font-style: unset;
+	text-decoration: none !important;
+	color: rgb(245, 245, 245);
+	font-size: 15px;
+}
+.items-navbar li a:hover,.items-navbar li a:visited, .items-navbar li a:focus {
+	text-decoration:none;
+	color: rgb(245, 245, 245);
+}

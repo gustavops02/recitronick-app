@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.content-section {
+}
+.btnRegister {
+    background-color: #00ff0d;
+    color: #000;
+    border: none;
+    font-size: 30px;
+    padding: 10px;
+    border-radius: 50%;
+    font-style: italic;
+}
+
+#productRegister {
+    margin: 20px;
+    height: 405px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    column-gap: 30px;
+    text-align: center;
+}
+.item-grid { cursor: pointer;
+    background-color: rgb(54, 54, 54);
+    grid-area: 100%;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+}
+
+#productRegister .description-item {
+    margin-top: 12px;
+	color: rgb(245, 245, 245);
+    font-family: 'Montserrat', serif;
+    font-size: 12px;
+}
+
+/* .ajust1 {
+    border-radius: 0 0 0 20px;
+}
+.ajust2 {
+    border-radius: 0 0 20px;
+
+} */

@@ -1,13 +1,17 @@
-const list = document.querySelectorAll('.list-menu');
+const btnHamburguerOne = document.getElementById('btnMenu1')
+const navbarContentOne = document.getElementById('navbar1')
 
-function activeLink(){
-	list.forEach((item) => {
-		item.classList.remove('active');
-		this.classList.add('active');
 
-	})
-}
+btnHamburguerOne.addEventListener('click', () => {
+	navbarContentOne.classList.toggle('visible-navbar')
 
-list.forEach((item) => {
-	item.addEventListener('click', activeLink)
-})	
+})
+
+const btnHamburguerTwo = document.getElementById('btnMenu2')
+const navbarContentTwo = document.getElementById('navbar2')
+
+
+btnHamburguerTwo.addEventListener('click', () => {
+	navbarContentTwo.classList.toggle('visible-navbar')
+
+})

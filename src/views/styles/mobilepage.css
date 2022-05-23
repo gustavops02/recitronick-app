@@ -38,7 +38,7 @@
 	margin-left: 14px;
 }
 
-.header-top .icon-hamburguer {
+.header-top .icon-hamburguer1, .icon-hamburguer2 {
 	position: relative;
 	right: 16px;
 	top: 6px;
@@ -52,18 +52,30 @@
 }
 .items-navbar {
 	text-align: end;
-	margin: 30px 7px;
+	margin: 30px 24px;
 	text-decoration: none !important;
 	display: flex;
 	flex-direction: column;
-
+	opacity: 0;
+}
+.visible-navbar{
+	opacity: 1;
+	transition: 0.3s;
+}
+#btnMenu1, #btnMenu2{
+	background-color: transparent;
+	border: none;
 }
 .items-navbar li {
 	list-style-type: none;
 	font-family: 'Montserrat', sans-serif;
 	margin-bottom: 24px;
-	
+	border-bottom: 1px solid rgb(54, 54, 54);
+	padding-bottom: 12px;
 }
+
+
+
 
 .items-navbar li a {
 	text-decoration: none;
@@ -78,6 +90,10 @@
 }
 .items-navbar ul {
 	margin-top: 23px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	flex-direction: center;
 }
 .items-navbar .input-search{
 	max-width: 100%;
